@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Regístrarte</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col s12 m5" id="card2">
+            <div class="card large white" id="register_card">
+                <div id="contenedor">
+                    <form class="col s12" method="POST">                        
+                        <h2 class="center-align">Registro usuario postulado</h2>
+                        <hr>
+                        <div class="input-field col s6">
+                            <input id="name" type="text" class="validate" required="true">
+                            <label for="name" id="info_label">*Nombres</label>
+                        </div>                                                
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate" required="true">
+                            <label for="last_name" id="info_label">*Apellidos</label>
+                        </div>
+                        <!-- Select lugar de residencia -->
+                        <div class="center"><label id="info_label">*Lugar de residencia</label></div>
+                        <div class="input-field col s6">
+                            <select class="browser-default">
+                                <option value="" disabled selected>---- Departamento ----</option>
+                                <option value="1">Amazonas</option>
+                                <option value="2">Antioquia</option>
+                                <option value="3">Arauca</option>
+                                <option value="4">Atlantico</option>
+                                <option value="5">Cundinamarca</option>
+                                <option value="6">Bolivar</option>
+                                <option value="7">Boyaca</option>                              
+                                <option value="8">Caldas</option>                              
+                                <option value="9">Caqueta</option>                              
+                                <option value="10">Casanare</option>                              
+                                <option value="11">Cauca</option>                              
+                                <option value="12">Cordoba</option>                              
+                            </select>
+                        </div>
+                        <div class="input-field col s6">
+                            <select class="browser-default">
+                                <option value="" disabled selected>---- Municipio ----</option>
+                                <option value="1">Leticia</option>
+                                <option value="2">Medellin</option>
+                                <option value="3">Arauca</option>
+                                <option value="4">Barranquilla</option>
+                                <option value="5">Bogota DC</option>
+                                <option value="6"></option>
+                                <option value="7"></option>                              
+                                <option value="8"></option>                              
+                                <option value="9"></option>                              
+                                <option value="10"></option>                              
+                                <option value="11"></option>                              
+                                <option value="12"></option>                              
+                            </select>
+                        </div>
+                        <!-- Datos -->
+                        <div class="input-field col s12">
+                            <input id="direction" type="text" class="validate" required="true">
+                            <label for="direction" id="info_label">*Direccion de residencia</label>
+                        </div> 
+                        <div class="input-field col s6">
+                            <input id="phoneF" type="number" class="validate" required>
+                            <label for="phoneF" id="info_label">*Telefono fijo</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="phone" type="number" class="validate" required>
+                            <label for="phone" id="info_label">*Numero de celular</label>
+                        </div>      
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" required="true">
+                            <label for="email" id="info_label">*Correo electronico</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="password" type="password" class="validate" required="true">
+                            <label for="password" id="info_label">*Contraseña nueva</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="password" type="password" class="validate" required="true">
+                            <label for="password" id="info_label">*Confirmar contraseña</label>
+                        </div>
+                        <!-- tipo de documento -->  
+                        <div class="center"><label id="info_label">*Tipo de documento</label></div>                      
+                        <div class="input-field col s12">
+                            <select class="browser-default">
+                                <option value="" disabled selected>-----</option>
+                                <option value="1">Cedula de Ciudadania</option>
+                                <option value="2">Cédula de Extranjeria</option>
+                                <option value="3">Documento Personal Identificacion</option>
+                                <option value="4">Pasaporte</option>
+                                <option value="5">Registro</option>
+                                <option value="6">Tarjeta de identidad</option>
+                                <option value="7"></option>                              
+                                <option value="8"></option>                                                       
+                            </select>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="number" type="number" class="validate" required>
+                            <label for="number" id="info_label">*Numero de documento</label>
+                        </div>
+                        <!-- cargue de foto -->                
+                        <form action="#">
+                            <div class="file-field input-field col s6">
+                                <div class="btn orange darken">
+                                    <span>Cargar foto</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                </div>
+                            </div>
+                        </form>
+                        <!-- tratamiento de datos -->
+                        <div class="center-align">
+                            <p class="row">
+                                <label>
+                                <input type="checkbox" class="filled-in" required="true">
+                                <span style="color: #001428; margin-top: 25px;">Autoriza el tratamiento de datos por parte del sena</span>
+                                </label>
+                            </p>
+                            <div class="center-align" id="registrarse">
+                                <a href="" class="waves-effect waves-light btn orange darken-1" type="submit">Registrarse</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

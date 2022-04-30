@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <title>Revisar postulacion</title>
+</head>
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Perfil</a></li>
+        <li><a href="#!">Configuraciones</a></li>
+        <li class="divider"></li>
+        <li><a href="">Salir</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img src="img/logo-sena-fondo-naranja-300x300 (1).png" alt=""></a>
+        <ul class="left hide-on-med-and-down" style="margin-left: 70px;" id="pestaña">
+            <li><a href="CargarDocumentos.html">Cargar documentos</a></li>
+            <li><a href="EstadoPostulacion.html">Revisar estado de postulacion</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li>
+                <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                    <img src="img/Logo.png" alt="">
+                    <span style="vertical-align: text-bottom; margin-left: 10px;">Mateo Jurado</span> 
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
+    <!-- BODY == section 4 -->
+    <div class="container">
+        <div class="section4 col s12">
+            <div class="left-align" id="titulo">
+                <h4 class="tit">HISTORIAL DE POSTULACIONES</h4>
+            </div>
+        </div>
+        <!-- section 5 -->
+        <div class="section5">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="th2">Centro de formacion</th>
+                        <th id="th2">Fecha de postulacion</th>
+                        <th id="th2">Estado</th>
+                        <th id="th2">Ver</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td id="td2">
+                            Centro de procesos industriales y construccion
+                        </td>
+                        <td id="td2">
+                            Martes,  22 de junio del 2021
+                        </td>
+                        <td id="td2">
+                            Rechazado
+                        </td>
+                        <td id="td2">
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">search</i>
+                                    <input type="search">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 2 fila -->
+                    <tr>
+                        <td id="td2">
+                            Centro para la formacion cafetera
+                        </td>
+                        <td id="td2">
+                            Martes, 22 de junio del 2021
+                        </td>
+                        <td id="td2">
+                            Rechazado
+                        </td>
+                        <td id="td2">
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">search</i>
+                                    <input type="search">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 3 fila -->
+                    <tr>
+                        <td id="td2">
+                            Centro de comercio y servicios
+                        </td>
+                        <td id="td2">
+                            Martes, 22 de junio del 2021
+                        </td>
+                        <td id="td2">
+                            Rechazado
+                        </td>
+                        <td id="td2">
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">search</i>
+                                    <input type="search">
+                                  </div>
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 4 fila -->
+                    <tr>
+                        <td id="td2">
+                            Centro de automatizacion industrial
+                        </td>
+                        <td id="td2">
+                            Martes, 22 de junio del 2021
+                        </td>
+                        <td id="td2">
+                            Rechazado
+                        </td>
+                        <td id="td2">
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">search</i>
+                                    <input type="search">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                     <!-- 5 fila -->
+                     <tr>
+                        <td id="td2">
+                            Centro de automatizacion industrial
+                        </td>
+                        <td id="td2">
+                            Martes, 22 de junio del 2021
+                        </td>
+                        <td id="td2">
+                            Rechazado
+                        </td>
+                        <td id="td2">
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">search</i>
+                                    <input type="search">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ul class="pagination right" id="pagina2">
+                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                <li class="active"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+        <!-- section 6 -->
+        <div class="section6">
+        </div>
+    </div>     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

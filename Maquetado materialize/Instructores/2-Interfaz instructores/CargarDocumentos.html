@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <title>Carga de documentos</title>
+</head>
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Perfil</a></li>
+        <li><a href="#!">Configuraciones</a></li>
+        <li class="divider"></li>
+        <li><a href="">Salir</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img src="img/logo-sena-fondo-naranja-300x300 (1).png" alt=""></a>
+        <ul class="hide-on-med-and-down" style="margin-left: 70px;" id="pestaña">
+            <li><a href="cargarDocumentos.html">Cargar documentos</a></li>
+            <li><a href="estadoPostulacion.html">Revisar estado de postulacion</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li>
+                <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                    <img src="img/Logo.png" alt="">
+                    <span style="vertical-align: text-bottom; margin-left: 10px;">Mateo Jurado</span> 
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- section -->
+    <div class="container">
+        <div class="section1 col s12">
+            <div class="left-align" id="titulo">
+                <h4 class="tit">DOCUMENTOS</h4>
+            </div>
+        </div>
+        <!-- section 2 -->
+        <div class="section2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Documento a Cargar</th>
+                        <th>Observaciones</th>
+                        <th>Links</th>
+                        <th>Cargue aqui</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td> 
+                            -Formato GTH-F-109, Oferta del contratista firmada, radicada en el SENA a la Subdirectora (e) de Centro.
+                        </td>
+                        <td>
+                            Diligenciar Formato GTH-F-109 remitido por la entidad, debidamente diligenciado y firmado en formato PDF
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 2 fila -->
+                    <tr>
+                        <td>
+                            -Formato Único de Hoja de Vida (función pública), se deberá cargar los soportes que acreditan su idoneidad y experiencia en la plataforma SIGEP. 
+                        </td>
+                        <td>
+                            Debidamente firmada y en formato PDF.
+                        </td>
+                        <td>
+                            <a href="https://servidorpublico.sigep.gov.co/sse_generico/espanol/generico_login.jsp?estado=3." target="_blank"> SIGEP</a>
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 3 fila -->
+                    <tr>
+                        <td>
+                            -Cédula de ciudadanía  <br>
+                            -Fotocopia cédula de Extranjería (Presentar Visa de Trabajo) cuando aplique.
+
+                        </td>
+                        <td>
+                            Ambas caras ampliada al 150%, formato PDF
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 4 fila -->
+                    <tr>
+                        <td>
+                            -Documento que acredite la definición de la situación militar de conformidad con lo señalado en el artículo 42 de la Ley 1861 de 2017. <br>
+                            Fotocopia Libreta Militar (Menores de 50 años) legible y ampliada al 150%. 
+                        </td>
+                        <td>
+                            <b> ***Solo aplica para hombres. </b> <br> <br>
+                            Debe estar en formato PDF.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                     <!-- 5 fila -->
+                    <tr>
+                        <td>
+                            -Reporte de Bienes y Rentas y Registro de Conflicto de Interés. (Formato y cargue en Función Pública).
+                            <br> <br>
+                            Nota: Este documento reemplazo el formato de bienes y rentas que se manejaba para las vigencias anteriores.
+                        </td>
+                        <td>
+                            -Registrarse en la pagina "funcion publica" y descarga documento denominado declaración de bienes y rentas y conflictos de interés. <br>
+                            <b>***Los datos para Iniciar sesión son diferentes del usuario y contraseña del aplicativo SIGEP.</b> <br><br><br>
+
+                            -Para poder descargar la información registrada debe ingresar al link <b>"descargar informacion en funcion publica".</b> 
+                        </td>
+                        <td>
+                            <a href="https://www.funcionpublica.gov.co/fdci/login/auth" target="_blank">Registrarse en "funcion publica"</a> <br> <br> <br> <br> <br><br>
+
+                            <a href="https://www.funcionpublica.gov.co/fdci/consultaCiudadana" target="_blank">Descargar informacion en "funcion publica"</a>
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 6 filA -->
+                    <tr>
+                        <td>
+                            Documentos académicos
+                        </td>
+                        <td>
+                            -El área validara la autenticidad de los títulos presentados.
+                            Deben corresponder 100% con los documentos subidos al SIGEP <br> <br>
+
+                            -Cuando los estudios son realizados en el exterior los mismos deben ser presentados con homologación por parte del ministerio de educación. <br> <br>
+                            <b> ***Deben ir en 1 solo archivo PDF.</b>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- 7ma filA -->
+                    <tr>
+                        <td>
+                            Documentos de Experiencia, las certificaciones deben contener como mínimo: <br> <br>
+                            <b>a)</b> nombre, razón social y número de contacto. <br>
+                            <b>b)</b> tiempo de servicio, fecha de ingreso y egreso. <br>
+                            <b>c)</b> relación de las funciones desempeñadas y sus periodos. <br>
+                            <b>d)</b> las anteriores certificaciones deben venir verificadas por el área solicitante. Igualmente se debe validar la autenticidad por el área.                
+                        </td>
+                        <td>
+                            <b> ***Deben ir en 1 solo archivo PDF.</b>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="btn">
+                                    <i class="material-icons">file_upload</i>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ul class="pagination right" id="pagina">
+                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                <li class="active"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+        <!-- section 3 -->
+        <div class="section3">
+        </div>
+    </div>    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

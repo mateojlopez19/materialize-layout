@@ -1,0 +1,189 @@
+body{
+    background-image: linear-gradient(to right bottom, #eeeeee, #efeef0, #efeff1, #efeff3, #eff0f5, #eff0f5, #eff0f5, #eff0f5, #efeff3, #efeff1, #efeef0, #eeeeee);
+    font-family: Arial, sans-serif;
+    color: #001428;
+    height: auto;
+}
+
+div.container{
+    width: 95%;
+}
+
+/* Barra de menu */
+nav{
+    background-color: #f57f17;
+}
+
+nav ul#pestaña a:hover {
+    background-color: #f1770c;
+}
+
+/* transparencia caja de logout y imagen */
+nav ul a:hover {
+    background-color: transparent;
+}
+
+a.dropdown-trigger>img, a.brand-logo>img{
+    border-radius: 100%;
+}
+
+/* ----------------------Revisar postulaciones, seccion de parrafo --------------------------------*/
+div.section1{
+    background-color: transparent !important;
+    height: auto;
+    padding: 15px;
+    width: auto;
+}
+/* buscador */
+#buscador{
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+nav .input-field label i{
+    color: #f1770c;
+}
+
+
+.input-field input[type=search]:focus:not(.browser-default) {
+    background-color: transparent;
+}
+
+/* ----seccion 2, tabla y paginacion ------*/
+div.section2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: auto;
+    padding: 14px;
+    width: auto;
+}
+
+div.section2 #pagina{
+    margin-top: 35px;
+}
+
+td, th {
+    border-radius: 2px;
+    display: table-cell;
+    text-align: justify;
+    padding: 15px 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+/* flex en botones de opciones */
+td#tdA{
+    display: flex;
+    border-radius: 2px;
+    padding: 15px 25px;
+    vertical-align: middle;
+}
+
+.file-field input[type=button] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    margin: 0px;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.btn{
+    background-color: #f57f17;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    background-color: #f9a825;
+    box-shadow: none;
+}
+
+.pagination>li.active{
+    background-color: #f57f17;
+}
+
+/* --------seccion 3------- */
+div.section3{
+    background-image: linear-gradient(to right bottom, #eeeeee, #efeef0, #efeff1, #efeff3, #eff0f5, #eff0f5, #eff0f5, #eff0f5, #efeff3, #efeff1, #efeef0, #eeeeee);
+    height: 80px;
+    padding: 15px;
+    width: auto;
+}
+
+/* -----------------------------------------VAlidar Requisits------------------------------------------------ */
+
+/* -----Validar requsitos, seccion de parrafo -------*/
+div.section4{
+    background-color: transparent !important;
+    height: auto;
+    padding: 15px;
+    width: auto;
+}
+
+div#titulo2, h4.tit{
+    height: 36px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+/* ----seccion 5, tabla y paginacion ------*/
+div.section5{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: auto;
+    padding: 14px;
+    width: auto;
+}
+
+div.section5 #pagina2{
+    margin-top: 35px;
+}
+
+td#td2, th#th2 {
+    border-radius: 2px;
+    display: table-cell;
+    padding: 20px 25px;
+    text-align: left;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.file-field input[type=search] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+/* FLEX botones de opciones */
+td#tdB{
+    border-radius: 2px;
+    display: flex;
+    padding: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* --------seccion 6------- */
+div.section6{
+    background-image: linear-gradient(to right bottom, #eeeeee, #efeef0, #efeff1, #efeff3, #eff0f5, #eff0f5, #eff0f5, #eff0f5, #efeff3, #efeff1, #efeef0, #eeeeee);
+    height: 80px;
+    padding: 15px;
+    width: auto;
+}
+

@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right bottom, #eeeeee, #efeef0, #efeff1, #efeff3, #eff0f5, #eff0f5, #eff0f5, #eff0f5, #efeff3, #efeff1, #efeef0, #eeeeee);
+    color: #001428; /* iconos */
+    font-family: Arial, sans-serif;
+    height: auto;
+}
+
+div#contenedor{
+    margin: 0px 20px;
+}
+
+h3{
+    font-weight: 600;
+}
+
+div>input{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+div>label#info_label{
+    color: #001428;
+    font-weight: 500;
+}
+
+/* boton inicio sesion */
+div>div#inicia_sesion{
+    width: auto;
+}
+
+div#inicia_sesion>a{ 
+    font-weight: 400;
+    margin-top: 20px;
+    width: 250px;
+    word-spacing: 2px;
+}
+
+/* link olvidar contraseña y registro INDEX */
+div#inicia_sesion>a{
+    border-radius: 10px;
+}
+
+div#olvido_contraseña{
+    margin-top: 30px;
+}
+
+div#registrate{
+    margin-top: 30px;
+}
+
+div>a{
+    color: #f57c00; 
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* ----- Margenes y tamaños card del index -----*/
+div#card{
+    width: 100%;
+}
+
+div#size_card{
+    border-radius: 30px;
+    height: 470px;
+    margin: 50px auto;
+    max-width: 450px;
+}
+
+/*----------------------------------- registro -------------------------------*/
+div#card2{  /* margenes de la card 2 */
+    width: 100%;
+}
+
+div#register_card{
+    border-radius: 30px;
+    height: 1000px;
+    margin: 50px auto;
+    max-width: 750px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, sans-serif;
+}
+
+/* boton registarse */
+div#registrarse>a{   
+    font-weight: 400;
+    margin-top: 20px;
+    width: 250px;
+    word-spacing: 2px;
+}
+
+div#registrarse>a{
+    border-radius: 10px;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Iniciar sesion</title>
+</head>
+<body> 
+    <div class="row">
+        <div class="col s12 m5" id="card">
+            <div class="ml-12 card large white" id="size_card">
+                <div id="contenedor">
+                    <form class="col s12">                        
+                        <h3 class="center-align">Inicia sesion</h3>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="email" class="validate" required="true">
+                            <label for="icon_prefix" id="info_label">Correo electronico</label>
+                        </div>                                                
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="password" type="password" class="validate" required>
+                            <label for="password" id="info_label">Contraseña</label>
+                        </div>
+                        <!-- botones -->
+                        <div class="center-align" id="inicia_sesion">                 
+                            <a href="/Instructores/2-Interfaz instructores/cargarDocumentos.html" class="waves-effect waves-light btn orange lighten-1">Ingresar</a>   
+                        </div>
+                        <div class="center-align">
+                            <div class="col s12"  id="olvido_contraseña">
+                            <a href="" class="forgot-password-link">¿Olvidaste la contraseña?</a>
+                            </div>
+                        </div>
+                        <div class="center-align">
+                            <div class="col s12" id="registrate">
+                            <span>¿No tienes una cuenta?</span>
+                            <a href="Registrate.html" class="sign-link">Registrate</a>
+                            </div>
+                        </div>                         
+                    </form>   
+                </div>
+            </div>
+       </div>
+    </div>        
+
+        <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
